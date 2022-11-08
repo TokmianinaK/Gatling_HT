@@ -1,0 +1,13 @@
+RUN	demo_a.RecordedSimulation	recordedsimulation	1667912231035	search and edit	3.6.1
+USER	RecordedSimulation	START	1667912234442
+REQUEST		open home page	1667912234459	1667912235303	OK	 
+REQUEST		css?family=Lobster|Lobster+Two	1667912235407	1667912235879	OK	 
+REQUEST		click on the start button	1667912236900	1667912237127	KO	status.find.is(302), but actually found 422
+REQUEST		Select age from dropdown	1667912238137	1667912238356	OK	 
+REQUEST		select age and click on next button after age selection	1667912238360	1667912239514	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 422
+REQUEST		Please select and enter the largest order value below ...	1667912240516	1667912240749	OK	 
+REQUEST		select and enter the largest order value, then click next button	1667912240759	1667912240964	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 422
+REQUEST		entering displayed token	1667912241966	1667912242173	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 422
+REQUEST		click next button after token entering	1667912243179	1667912243383	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 422
+REQUEST		page done	1667912244385	1667912245418	OK	 
+USER	RecordedSimulation	END	1667912245424

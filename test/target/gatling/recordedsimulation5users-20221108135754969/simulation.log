@@ -1,0 +1,61 @@
+RUN	demo_a.RecordedSimulation5users	recordedsimulation5users	1667915874969	run	3.6.1
+USER	RecordedSimulation	START	1667915876119
+USER	RecordedSimulation	START	1667915876119
+USER	RecordedSimulation	START	1667915876119
+USER	RecordedSimulation	START	1667915876119
+USER	RecordedSimulation	START	1667915876119
+REQUEST		open home page	1667915876139	1667915877059	OK	 
+REQUEST		open home page	1667915876139	1667915877059	OK	 
+REQUEST		open home page	1667915876139	1667915877115	OK	 
+REQUEST		open home page	1667915876139	1667915877078	OK	 
+REQUEST		open home page	1667915876139	1667915877115	OK	 
+REQUEST		css?family=Lobster|Lobster+Two	1667915877262	1667915877375	OK	 
+REQUEST		css?family=Lobster|Lobster+Two	1667915877262	1667915877375	OK	 
+REQUEST		css?family=Lobster|Lobster+Two	1667915877262	1667915877378	OK	 
+REQUEST		css?family=Lobster|Lobster+Two	1667915877262	1667915877378	OK	 
+REQUEST		css?family=Lobster|Lobster+Two	1667915877262	1667915877380	OK	 
+REQUEST		click on the start button	1667915878413	1667915878633	KO	status.find.is(302), but actually found 422
+REQUEST		click on the start button	1667915878413	1667915878629	KO	status.find.is(302), but actually found 422
+REQUEST		click on the start button	1667915878413	1667915878631	KO	status.find.is(302), but actually found 422
+REQUEST		click on the start button	1667915878413	1667915878633	KO	status.find.is(302), but actually found 422
+REQUEST		click on the start button	1667915878413	1667915878665	KO	status.find.is(302), but actually found 422
+REQUEST		Select age from dropdown	1667915879644	1667915879852	OK	 
+REQUEST		Select age from dropdown	1667915879645	1667915879855	OK	 
+REQUEST		Select age from dropdown	1667915879645	1667915879865	OK	 
+REQUEST		Select age from dropdown	1667915879644	1667915879876	OK	 
+REQUEST		Select age from dropdown	1667915879669	1667915879886	OK	 
+REQUEST		select age and click on next button after age selection	1667915879860	1667915880085	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 422
+REQUEST		select age and click on next button after age selection	1667915879869	1667915880092	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 422
+REQUEST		select age and click on next button after age selection	1667915879856	1667915880095	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 422
+REQUEST		select age and click on next button after age selection	1667915879890	1667915880166	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 422
+REQUEST		select age and click on next button after age selection	1667915879879	1667915880166	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 422
+REQUEST		Please select and enter the largest order value below ...	1667915881087	1667915881306	OK	 
+REQUEST		Please select and enter the largest order value below ...	1667915881099	1667915881371	OK	 
+REQUEST		Please select and enter the largest order value below ...	1667915881096	1667915881378	OK	 
+REQUEST		Please select and enter the largest order value below ...	1667915881169	1667915881469	OK	 
+REQUEST		Please select and enter the largest order value below ...	1667915881169	1667915881470	OK	 
+REQUEST		select and enter the largest order value, then click next button	1667915881322	1667915881535	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 422
+REQUEST		select and enter the largest order value, then click next button	1667915881378	1667915881582	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 422
+REQUEST		select and enter the largest order value, then click next button	1667915881384	1667915881587	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 422
+REQUEST		select and enter the largest order value, then click next button	1667915881473	1667915881675	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 422
+REQUEST		select and enter the largest order value, then click next button	1667915881473	1667915881675	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 422
+REQUEST		entering displayed token	1667915882538	1667915882754	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 422
+REQUEST		entering displayed token	1667915882586	1667915882791	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 422
+REQUEST		entering displayed token	1667915882589	1667915882793	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 422
+REQUEST		entering displayed token	1667915882679	1667915882887	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 422
+REQUEST		entering displayed token	1667915882679	1667915882887	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 422
+REQUEST		click next button after token entering	1667915883760	1667915883975	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 422
+REQUEST		click next button after token entering	1667915883796	1667915884001	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 422
+REQUEST		click next button after token entering	1667915883796	1667915884001	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 422
+REQUEST		click next button after token entering	1667915883891	1667915884092	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 422
+REQUEST		click next button after token entering	1667915883891	1667915884096	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 422
+REQUEST		page done	1667915884977	1667915885189	OK	 
+REQUEST		page done	1667915885005	1667915885212	OK	 
+REQUEST		page done	1667915885004	1667915885212	OK	 
+REQUEST		page done	1667915885096	1667915885298	OK	 
+REQUEST		page done	1667915885099	1667915885303	OK	 
+USER	RecordedSimulation	END	1667915886198
+USER	RecordedSimulation	END	1667915886218
+USER	RecordedSimulation	END	1667915886218
+USER	RecordedSimulation	END	1667915886304
+USER	RecordedSimulation	END	1667915886308
